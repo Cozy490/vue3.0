@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <van-button type="info" @touchstart.stop="show = true">信息按钮</van-button>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.png"/>
+    <div style="fontSize:38px">我测试一下</div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <van-number-keyboard
       :show="show"

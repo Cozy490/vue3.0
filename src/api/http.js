@@ -40,7 +40,7 @@ instance.interceptors.response.use(
     if (response.data.code === 401 || response.data.code === '401') {
       router.push({
         path: '/login',
-        querry: {
+        query: {
           redirect: router.currentRoute.fullPath
         } // 从哪个页面跳转
       })
